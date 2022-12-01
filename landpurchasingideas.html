@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - Land</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+
+    <a href="#overview" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+    <a href="#land search sites" onclick="w3_close()" class="w3-bar-item w3-button">Real Estate Sites</a>
+  <!--  <a href="#two" onclick="w3_close()" class="w3-bar-item w3-button">two</a>  -->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - Land</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <span id="overview"></span>
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+      <hr>
+
+      <h3>Land Purchasing Overview</h3>
+
+      <div>
+        <p>I plan to post links to sites where you can look for land.  Also if there's a specific parcel i like, i might
+          make a write up about it and what could be done with it, i wouldn't be intending to buy it, just practicing
+          thinking of what to do with it and maybe explaining why having land like that would be beneficial at all,
+          because it seems like land purchasing is unnecessary sometimes, and like i could just do everything where i already am
+          and with what i already have.  Also, maybe general ideas about types of things it would be possible to build
+          on different types of common land, like if it had a river or a hill or if it was 100 acres or if it were 1 acre.
+          Also info about rules, regulations, or other details, maybe links or references to the small building ideas or ws3 ideas 
+          would go with this.  Maybe even informational maps(geographic, land use, election) 
+          overlayed with available land. But that sort of thing might be more sensible when land purchasing is a lot 
+          further along than it is right now. 
+        </p>
+
+      </div>
+
+    </div>
+
+    <hr id="land search sites">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+
+      <h3>Real Estate Shopping Site List</h3>
+
+      <div class="w3-left-align">
+
+       <ul style="list-style: none">
+        <li><a href="https://www.landsearch.com/">landsearch.com</a></li>
+        <li><a href="https://www.americaslanddeals.com/">american land deals</a></li>
+        <li><a href="https://www.land.com/">land.com</a></li>
+        <li><a href="https://www.landandfarm.com/">landandfarm.com</a></li>
+        <li><a href="https://www.landwatch.com/">landwatch.com</a></li>
+        <li><a href="https://www.landmodo.com/">landmoto</a></li>
+       </ul>
+
+      </div>
+
+    </div>
+    
+
+    <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

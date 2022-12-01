@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - Lorem Ipsum</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="#stepsdrawing" onclick="w3_close()" class="w3-bar-item w3-button">Lamp Making Steps Drawing.</a>
+    <a href="#6-14-2022, togos notes" onclick="w3_close()" class="w3-bar-item w3-button">6-14-2022, togos notes</a>
+  <!--  <a href="#two" onclick="w3_close()" class="w3-bar-item w3-button">two</a>
+    <a href="#three" onclick="w3_close()" class="w3-bar-item w3-button">three</a>
+    <a href="#four" onclick="w3_close()" class="w3-bar-item w3-button">four</a>
+    <a href="#five" onclick="w3_close()" class="w3-bar-item w3-button">five</a>
+    <a href="#six" onclick="w3_close()" class="w3-bar-item w3-button">six</a>-->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - Lamp One</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <!--https://www.lampshop.com/ talk about the lampshop, the making of the lampshade, your use of lampshade paper and fabric, the older lamp, that you hung up now that you remember it
+    note that you might be able to steal the lampshop website and use its checkout and store code. you used to make forms like this in school but have never seen a real one that is just
+    written in standard html in the wild.  Most of them are something else and are connected to paypal etc. This should be a project actually, maybe a secret one not on this site-->
+
+
+    <span id="stepsdrawing"></span>
+    <!-- text on left photo on right-->
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+      <hr>
+      <h3>Drawing of steps involved in lamp creation.</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div>
+          <img src="images/lamp1/lamp 1 ideas.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="534">
+        </div>
+        <div>
+          <h6><i>6-22-2022, Lamp Creation Steps.</i></h6>
+          <p>This appears to be an attempt at drawing some of the steps involved with making the lamp.  It's kind of a draft of a downloadable instructional pdf with a cut list.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <hr id="6-14-2022, togos notes">
+    <!-- text on left photo on right-->
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+      <h3>What togos said about the lamp today</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div>
+          <img src="images/lamp1/togosdrawing.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="267">
+        </div>
+        <div>
+          <h6><i>6-14-2022, Togos description of lamp construction.</i></h6>
+          <p>"we had some kreg screws, we put some stain on it, it was tricky to drill the hole through the middle because we didn't have a drill press, and even if we had one it wouldn't have worked
+            because the board had to be exactly parallel to the drill bit.  We came up with geometric trick of some kind. So we made a drill guide
+          clamped to a workbench, then eyballed it.  togos was holding a ruler in front of him to make sure the drill bit was part of the board.  we didn't think it was possible, but then we did it."</p>
+        </div>
+      </div>
+    </div>
+
+
+    <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

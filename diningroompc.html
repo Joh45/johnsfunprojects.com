@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - Dining Room PC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+
+    <a href="#overview" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+    <a href="#Harddrivecloning2022" onclick="w3_close()" class="w3-bar-item w3-button">Hard Drive Cloning 2022</a>
+    <a href="#mousecleaning2022" onclick="w3_close()" class="w3-bar-item w3-button">Mouse Cleaning 2022</a>
+  <!--  <a href="#two" onclick="w3_close()" class="w3-bar-item w3-button">two</a>  -->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - Dining Room PC</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <span id="overview"></span>
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+      <hr>
+
+      <h3>Project Overview</h3>
+
+      <div>
+
+        <h6><i>Dining Room PC</i></h6>
+        <p>This is my dad's pc.  He got it from his last job before he retired,
+          but i installed the os and excel, using an office 2016 liscense i got
+          from work at the time.  I also use sites like mrkeyshop to get keys
+          for windows and office when necessary.
+        I recently cleaned the mouse, attempted and failed to clean the keyboard,
+        bought a new keyboard, and cloned the hard drive.  This hard drive
+        cloning process was very difficult because the original drive had a corrupt
+        file that was at first unclonable.</p>
+
+      </div>
+
+    </div>
+
+    <hr id="Harddrivecloning2022">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+      <h3>Hard Drive Cloning</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-half">
+          <img src="images/clone attempt 1.jpg" alt="clone attempt" style="width:50%" />
+          <a href="images/diningroompc/dining room pc repair 8-17-2022.zip" download="dining room pc repair 8-17-2022.zip">
+            <p>Click Here to download additional related images and files.</p>
+          </a>
+
+        </div>
+        <div class="w3-half">
+          <i>8-2022, Notes about failed cloning attempts and eventual success.</i>
+          <p>I have cloned many hard drives of other computers before, but this time was different.  Macrium reflect gave me an error,
+          error 9.  I read some forums and eventually started to believe this was due to a corrupt file.</p>
+
+          <p>I deleted the files from a previous recovered hard drive.  This freed up more than half of the used hard drive space.  It at least made the failed cloning attempts fail more quickly.
+             I hoped it would eliminate the corrupt file too, I'm still not sure if it did or not.</p>
+
+          <p>I made several attempts to clone.  After each failed attempt, i needed to clear the hard drive.  I did this by
+            using a program called diskpart.</p>
+          <h3>diskpart steps:</h3>
+          <ul>
+            <li>type diskpart into start menu</li>
+            <li>right click and run as administrator</li>
+            <li>type list disk</li>
+            <li>type select disk then disk number, ie select disk 1.</li>
+            <li>type clean</li>
+          </ul>
+
+        <p>Since macrium reflect was not working, i tried aomei backupper.  It did a little bit better, but still failed. Each attempt took a long time, the errors were vague and difficult to google answers to,
+          as probably no one has ever tried to clone the same os on the same hardware using the same software,
+          and so this project took at least 3 weeks. Eventually I tried aomei
+          partition manager, it had an option, quick clone, that ended up working.</p>
+        <p>At this time, august 2022, I think aomei partition manager is the best cloning software,  If I have to clone another hard drive, it is what I will use.</p>
+        <p>I am still concerned that due to all the errors, i used some extra read write cycles on the ssd, so maybe it will fail, but if that happens, i've still got the old hdd, and new excel files are being regularly backed up on a flash drive, so
+        even drive failure does happen, it should be ok.  My mass offline data storage project should also add another layer of defense against this risk when it is completed.</p>
+
+          </div>
+        <br>
+      </div>
+      </br>
+    </div>
+
+    <hr id="mousecleaning2022">
+
+    <!-- text on left photo on right-->
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+      <h3>Mouse Cleaning 2022</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+
+        <div class="w3-half">
+          <i>Cleaning an old Logitech laser mouse.</i>
+          <p>This is a very old laser mouse, it could be from as long ago as 1999, it could be a 930495-0403, but i'm not sure.  My dad does not like newer mice like the razer deathadder or logitech g pro x superlight because of the
+          dpi button.  He feels it's out of control.  Explaining the dpi button does not work.  If I gave him a newer one, he would probably just use this one instead.  It was dirty and not working properly though.  I found out that
+        this was because the spring inside was no longer connected, so the scroll wheel acted funny.  It was also extremely dirty, but now it's cleaned and like new.  Unfortnately, the same can't be said for the keyboard, which
+      i destroyed while trying to clean, first time that's ever happened, but that's going to be another post.</p>
+          <p>-used the same methods I did to clean the mouse and keyboard of my asus rog laptop.  Including the 50% rubbing alcohol and qtips.</p>
+          <p>-fully removed and reset the wheel and spring, that was probably the hardest part.</p>
+          <p>-washed shell and othe plastic parts in the sink with dish soap and water</p>
+          <p>-used a paintbrush to sweep dust off the circuit board.
+        </div>
+        <div class="w3-half">
+          <h4>before:</h4>
+          <img src="images/diningroompc/mousecleaning2022/mousebefore.jpg" alt="before" style="width:100%" />
+          <h4>after:</h4>
+          <img src="images/diningroompc/mousecleaning2022/mouseafter.jpg" alt="after" style="width:100%" />
+          <a href="images/diningroompc/mousecleaning2022/mousecleaning2022.zip" download="mousecleaning2022.zip">
+            <p>Click Here to download additional 2022 mouse cleaning related images and files.</p>
+          </a>
+        </div>
+        <br>
+      </div>
+      <br>
+    </div>
+
+
+
+    <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

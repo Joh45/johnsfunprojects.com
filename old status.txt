@@ -1,0 +1,429 @@
+
+                <p>Status: Not Operational, sd card adapter works for a while but fails, will try cf card. Antix, Dos, or windows 98 could work.</p>
+<p>Status: Operational, needs os change. Ongoing, was once a webserver with ubuntu server, currently testing antix, I plan to make this a more modern classic dos pc with freedos</p>
+
+                <p>Status: Operational, Ongoing, going to try duco coin mining, rc boat project, etc.</p>
+
+ <h3>2005 Gaming PC</h3>
+              <p>Year Created: 2005</p>
+              <p>Last Updated: 2019</p>
+              <p>Status: Working, Currently has haiku os, but it's not the right match, planning to try antix, has been unintentionally deprioritized.</p>
+
+
+               <h3>IBM Win XP PC</h3>
+              <p>Year Created: 2001</p>
+              <p>Last Updated: 2009</p>
+              <p>Status: NOT operational, total hard drive failure, sd adapter ineffective, might be sata port, Will Attempt CF card when possible.</p>
+
+          <h3>AMD K6 Windows 95 PC</h3>
+              <p>Year Created: 1995</p>
+              <p>Last Updated: 2021</p>
+              <p>Status: Working, my second computer, first computer that was actually mine and in my room, where it still is. Needs new floppy to usb device and new old cpu fan.</p>
+
+      <h3>Dos PC</h3>
+              <p>Year Created: 1988</p>
+              <p>Last Updated: 2019</p>
+              <p>Status: Not Working, my first computer, was amazingly repaired and reactivated in 2019 but has issues that are well known and under control.</p>
+     <h3>Lenovo B15 Laptop</h3>
+              <p>Year Created: 2010</p>
+              <p>Last Updated: 2020</p>
+              <p>Status: Not Working, old laptop, needs hard drive swap, clone, hard drive replacement.</p>
+
+               <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+              <a href="ps4.html"><img src="images/ps4.jpg" alt="Popsicle" style="width:100%"></a>
+              <h3>Playstation 4</h3>
+              <p>Year Created: 2016</p>
+              <p>Last Updated: 2021</p>
+              <p>Status: Not working.</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="esp32.html"><img src="images/esp32.jpg" alt="Salmon" style="width:100%"></a>
+              <h3>esp32</h3>
+              <p>Year Created: 2021</p>
+              <p>Last Updated: 2021</p>
+              <p>Status: Not progressing. Need to think of new ideas.</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="pine64.html"><img src="images/placeholder.jpg" alt="Sandwich" style="width:100%"></a>
+              <h3>Pine64</h3>
+              <p>Year Created: 2015</p>
+              <p>Last Updated: 2015</p>
+              <p>Status: Not Working, never worked very well, not usable for intended purpose, I have a plan to use it with a futurebit usb miner.</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="Lenovob15laptop.html"><img src="images/lenovob15.jpg" alt="Croissant" style="width:100%"></a>
+              <h3>Lenovo B15 Laptop</h3>
+              <p>Year Created: 2010</p>
+              <p>Last Updated: 2020</p>
+              <p>Status: Not Working, old laptop, needs hard drive swap, clone, hard drive replacement.</p>
+            </div>
+
+
+            <div class="w3-quarter">
+              <a href="jennypc.html"><img src="images/bedroompc.jpg" alt="Popsicle" style="width:100%"></a>
+              <h3>h500 Desktop</h3>
+              <p>Year Created: 2013</p>
+              <p>Last Updated: 2022</p>
+              <p>Status: ok</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="livingroompc.html"><img src="images/placeholder.jpg" alt="Salmon" style="width:100%"></a>
+              <h3>Living Room PC</h3>
+              <p>Year Created: 2018</p>
+              <p>Last Updated: 2021</p>
+              <p>Status: ok</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="diningroompc.html"><img src="images/diningroompc.jpg" alt="Sandwich" style="width:100%"></a>
+              <h3>Dining Room PC</h3>
+              <p>Year Created: 2015</p>
+              <p>Last Updated: 2021</p>
+              <p>Status: ok</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="win8tablet.html"><img src="images/win8tablet.jpg" alt="Croissant" style="width:100%"></a>
+              <h3>Windows 8 Tablet</h3>
+              <p>Year Created: 2014</p>
+              <p>Last Updated: 2022</p>
+              <p>Status: ok</p>
+            </div>
+
+
+                 <div class="w3-quarter">
+              <a href="pi400.html"><img src="images/pi400.jpg" alt="Pi400" style="width:100%"></a>
+              <h3>Raspberry Pi 400</h3>
+              <p>Year Created: 2020</p>
+              <p>Last Updated: 2021</p>
+              <p>Status: Working, Command Computer Rank 2, dedicated control center for all wireless sbcs and microcontorller boards, needs os upgrade.</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="pi4argonone.html"><img src="images/argonone.jpg" alt="Argone One" style="width:100%"></a>
+              <h3>Raspberry PI 4 with Argon One Case</h3>
+              <p>Year Created: 2021</p>
+              <p>Last Updated: 2021</p>
+              <p>Status: Complete, Ongoing, Experimental</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="pi3bsnes.html"><img src="images/pi3bsnes.jpg" alt="Sandwich" style="width:100%"></a>
+              <h3>Raspberry PI 3B with SNES Case</h3>
+              <p>Year Created: 2019</p>
+              <p>Last Updated: 2019</p>
+              <p>Status: Complete, 100% done, Entertainment Center, Works Amazing.</p>
+              <!--  <p>future plans: besides playing the games, no future plans are necessary</p>  -->
+            </div>
+            <div class="w3-quarter">
+              <a href="pizerow.html"><img src="images/piwzero1.jpg" alt="Croissant" style="width:100%"></a>
+              <h3>Raspberry PI W Zero</h3>
+              <p>Year Created: 2019</p>
+              <p>Last Updated: 2022</p>
+              <p>Status: Complete, Ongoing, IOT device, crypto miner, Works Amazing.</p>
+            </div>
+
+            <div class="w3-quarter">
+              <a href="3dprinting.html"><img src="images/3dprinter1.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>3d Printing, creality ender 5 pro</h3>
+              <p>Year Started: 2022</p>
+              <p>Last Update: 2022</p>
+              <p>Status: Just Started, ongoing, going well.</p>
+            </div>
+
+            <div class="w3-quarter">
+              <a href="roglaptop/roglaptop.html"><img src="images/asusroglaptop2.jpg" alt="Main Laptop" style="width:100%"></a>
+              <h3>Main Laptop</h3>
+              <p>Year Created: 2016</p>
+              <p>Last Updated: 2022</p>
+              <p>Status: Working, Command Computer Rank 1, My main device, needs hard drive upgrade.</p>
+
+
+                <div class="w3-quarter">
+            <img src="images/aigarden102422.png" alt="placeholder" style="width:100%">
+            <h3>U Shaped Fenced in Garden</h3>
+            <p>Year Started: 2022</p>
+            <p>Last Update: 2022</p>
+            <p>Status: just an idea</p>
+          </div>
+          <div class="w3-quarter">
+            <a href="palletgarden1.html"><img src="images/pallet garden.jpg" alt="placeholder" style="width:100%"></a>
+            <h3>Pallet Garden</h3>
+            <p>Year Started: 2022</p>
+            <p>Last Update: 2022</p>
+            <p>Status: complete.</p>
+          </div>
+          <div class="w3-quarter">
+            <a href="gardentoolrepair.html"><img src="images/shovel1.jpg" alt="shovel" style="width:100%"></a>
+            <h3>Garden Tool Repair</h3>
+            <p>Year Started: 2022</p>
+            <p>Last Update: 2022</p>
+            <p>Status: Just started, researching.</p>
+          </div>
+          <div class="w3-quarter">
+            <a href="largeflowerboxes.html"><img src="images/largeflower2.jpg" alt="shovel" style="width:100%"></a>
+            <h3>Large Flower Boxes</h3>
+            <p>Year Started: 1996</p>
+            <p>Last Update: 2022</p>
+            <p>Status: Complete, but is an ongoing problem.</p>
+          </div>
+
+           <div class="w3-quarter">
+            <a href="games/aoe2/aoe2.html"><img src="images/games/aoe2/aoe262222.png" alt="placeholder" style="width:100%"></a>
+            <h3>Age of Empires 2</h3>
+            <p>Year Started: 1999</p>
+            <p>Last Update: 2022</p>
+            <p>Status: It's an old game. I have a seperate website with build orders for aoe 2. this page should be about plans for that site and maybe for occasional ideas about other similar games like aoe1 or rise of nations or age of mythology.</p>
+          </div>
+
+
+            <div class="w3-quarter">
+          <a href="graphene.html"><img src="images/possible graphene.jpg" alt="Sandwich" style="width:100%"></a>
+          <h3>Attempts to make graphene</h3>
+          <p>Year Started: 2012</p>
+          <p>Last Updated: 2021</p>
+          <p>Project Status: Not currently progressing.</p>
+
+        </div>
+        <div class="w3-quarter">
+          <a href="rccars.html"><img src="images/rccar2013.png" alt="Steak" style="width:100%"></a>
+          <h3>DIY RC Cars</h3>
+          <p>Year Created: 2011</p>
+          <p>Last Updated: 2013</p>
+          <p>Project Status: Needs to be restarted.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="flashlights.html"><img src="images/diyflashlight1.png" alt="Cherries" style="width:100%"></a>
+          <h3>DIY Flashlight Plans.</h3>
+          <p>Year Started: 1985</p>
+          <p>Last Updated: 2022</p>
+          <p>Project Status: Ongoing</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="esp32.html"><img src="images/esp32basicleds.jpg" alt="Pasta and Wine" style="width:100%"></a>
+          <h3>Esp32</h3>
+          <p>Year Created: 2020</p>
+          <p>Last Updated: 2020</p>
+          <p>Project Status: Not progressing. Need to think of new ideas.</p>
+        </div>
+
+          <div class="w3-quarter">
+          <a href="bookshelf.html"><img src="images/bookshelf1.png" alt="bookshelf" style="width:100%"></a>
+          <h3>Bookshelf</h3>
+          <p>Year Started: 2021</p>
+          <p>Last Update: 2021</p>
+          <p>Status: Complete</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="painting.html"><img src="images/paintcan1.jpg" alt="painting" style="width:100%"></a>
+          <h3>Painting</h3>
+          <p>Year Started: 2013</p>
+          <p>Last Update: 2021</p>
+          <p>Status: Ongoing. I am going to try to keep records of my frequent attempts to paint and finish things.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="lampdesignideas.html"><img src="images/otherlamps.jpg" alt="other lamps" style="width:100%"></a>
+          <h3>Lamp Design Ideas</h3>
+          <p>Year Started: 2015</p>
+          <p>Last Update: 2022</p>
+          <p>Status:  Not currently progressing.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="smallnetworktable.html"><img src="images/smalltable1.jpg" alt="small table" style="width:100%"></a>
+          <h3>Small Network Table</h3>
+          <p>Year Started: 2014</p>
+          <p>Last Update: 2022</p>
+          <p>Status: Operational. New variant being designed.</p>
+        </div>
+
+          <div class="w3-quarter">
+          <a href="etsypotatobox.html"><img src="images/potatoplanter.jpg" alt="Potato Planter" style="width:100%"></a>
+          <h3>Potato Box From Etsy Instructions</h3>
+          <p>Year Started: 2020</p>
+          <p>Last Update: 2020</p>
+          <p>Status: Not really started. I downloaded the pdf from etsy. Then I chose to do the other planter first and never built the potato planter, but I'd still like to.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="networktable.html"><img src="images/networktable.jpg" alt="Network Table" style="width:100%"></a>
+          <h3>Network Table</h3>
+          <p>Year Started: 2018</p>
+          <p>Last Update: 2021</p>
+          <p>Status: Complete. Has Modem, Router, Crypto PC, and Printer. <!--Needs cleaning, reorginization, cable management,
+            Cable management at home is a weakness of mine and should be a separate project at some point.--></p>
+        </div>
+        <div class="w3-quarter">
+          <a href="prototyping.html"><img src="images/prototyping.jpg" alt="Prototyping" style="width:100%"></a>
+          <h3>Prototyping</h3>
+          <p>Year Started: 2020</p>
+          <p>Last Update: 2021</p>
+          <p>Status: Ongoing. Mainly used to decide on steps to put in etsy downloadable plans. This is very related to trying to make an etsy store.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="sawnaturalwood.html"><img src="images/naturalboards2.jpg" alt="natural wood" style="width:100%"></a>
+          <h3>Sawing Natural Wood</h3>
+          <p>Year Started: 2022</p>
+          <p>Last Update: 2022</p>
+          <p>Status: Complete, Ongoing. With a bandsaw you can rip logs into boards or cut boards into shapes.</p>
+        </div>
+
+           <div class="w3-quarter">
+          <a href="chairrepair.html"><img src="images/chairleg1.jpg" alt="chair repair" style="width:100%"></a>
+          <h3>Chair Repair</h3>
+          <p>Year Started: 2022</p>
+          <p>Last Update: 2022</p>
+          <p>Status: Complete, Like it never broke. No one will ever know. Project lead to me finding out more about bandsaws, buying one, and using it.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="etsystoreplan.html"><img src="images/pdfplans1aa.jpg" alt="etsy store" style="width:100%"></a>
+          <h3>Etsy Store Plan</h3>
+          <p>Year Started: 2020</p>
+          <p>Last Update: 2022</p>
+          <p>Status: Early planning stages. Have not managed to focus on it as much as I'd like.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="lamp.html"><img src="w3images/lamp1.jpg" alt="Lamp 1" style="width:100%"></a>
+          <h3>Lamp 1</h3>
+          <p>Year Started: 2017</p>
+          <p>Last Update: 2022</p>
+          <p>Status: Complete. However, I want to make a new one and a downloadable etsy plan of how to make one.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="etsyraisedbed.html"><img src="images/etsyplanterb.jpg" alt="Raised bed planter" style="width:100%"></a>
+          <h3>Planter from Etsy Instructions</h3>
+          <p>Year Started: 2020</p>
+          <p>Last Update: 2022</p>
+          <p>Status: Complete. Gone, sold for $50. Made from someone elses digital download from etsy. I also tried to learn how to make instructions like them.</p>
+        </div>
+
+         <div class="w3-quarter">
+            <a href="curlyfries.html"><img src="images/curlyfries1.jpg" alt="curly fries" style="width:100%"></a>
+            <h3>Curly fries</h3>
+            <p>Year Started: 2022</p>
+            <p>Last Update: 2022</p>
+            <p>Status: Complete, gone, eaten.</p>
+          </div>
+
+                <div class="w3-quarter">
+                <a href="condo.html"><img src="images/condo1 resized.jpg" alt="placeholder" style="width:100%"></a>
+                <h3>My House</h3>
+                <p>Year Created: 2018</p>
+                <p>Last Update: 2022</p>
+                <p>Status: This is my condo that I own. It's my primary residence where I live. Command Location Rank 1.</p>
+              </div>
+              <div class="w3-quarter">
+                <a href="ws2.html"><img src="images/ws2.jpg" alt="placeholder" style="width:100%"></a>
+                <h3>Workshop 2</h3>
+                <p>Year Created: 2019</p>
+                <p>Last Update: 2022</p>
+                <p>Status: Operational. The larger tools can be set up anywhere. The indoor area may be reorganized soon. Command location rank 2.</p>
+                <!--With this one, the tools are mostly designed to be slightly mobile so they can be used outdoors.
+            The indoor space has a large table for projects of all kinds.  My old main desktop is also there, along with several older computers.-->
+                </p>
+              </div>
+              <div class="w3-quarter">
+                <a href="sweethome3d.html"><img src="images/sweethome01.jpg" alt="placeholder" style="width:100%"></a>
+                <h3>Sweethome 3d</h3>
+                <p>Year Started: 2021</p>
+                <p>Last Update: 2021</p>
+                <p>Status: This is just a good open source room planning program. The page will have sweethome 3d maps of some of the locations, that's why i put this in locations.</p>
+              </div>
+              <div class="w3-quarter">
+                <a href="ws1.html"><img src="images/workshop1b.jpg" alt="placeholder" style="width:100%"></a>
+                <h3>Workshop 1</h3>
+                <p>Year Created: 2015</p>
+                <p>Last Update: 2019</p>
+                <p>Status: Operational. Undergoing Redesign and Repair. Command location rank 3.</p>
+              </div>
+
+                <!--
+                  <p>This is at a <a href="http://www.nuke24.net/">friend's</a> house. It has some very large shelves and tables that we built. </p> -->
+                <!--It's not very practical for me to go there anymore most of the time, also, i don't have any current projects that would
+          require it, but maybe I will someday.  He still does lots of projects and still uses many of the tools and tables there.  Some of the shelves and tables we built are large and took a lot of effort to build.
+          I still think it looks cool, but I've switched to thinking that foldable tools and working outside is more practical for the types of projects I usually do.  I have
+        plans for a future 3rd workshop that will be the best yet and also a plan to build a giant behind the bed cabinet, so I might try to ask for help with both of those things if the time comes.-->
+<!--With this one, the tools are mostly designed to be slightly mobile so they can be used outdoors.
+            The indoor space has a large table for projects of all kinds.  My old main desktop is also there, along with several older computers.-->
+
+
+              <div class="w3-quarter">
+                  <a href="ws3.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+                  <h3>3rd Workshop Ideas</h3>
+                  <p>Year Started: 1993</p>
+                  <p>Last Update: 2022</p>
+                  <p>Status: just an idea.</p>
+                </div>
+                <div class="w3-quarter">
+                  <a href="alternativeneighborhood.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+                  <h3>Alternative Neighborhood</h3>
+                  <p>Year Started: </p>
+                  <p>Last Update: </p>
+                  <p>Status: just an idea.</p>
+
+                </div>
+                <div class="w3-quarter">
+                  <a href="remotecampsiteplans.html"><img src="images/camp10.png" alt="placeholder" style="width:100%"></a>
+                  <h3>Remote Campsite</h3>
+                  <p>Year Started: </p>
+                  <p>Last Update: </p>
+                  <p>Status: just an idea.</p>
+                </div>
+                <div class="w3-quarter">
+                  <a href="smallbuildingideas.html"><img src="images/archedcabinaipic1.png" alt="arched cabin" style="width:100%"></a>
+                  <h3>Small Buildings</h3>
+                  <p>Year Started: 2022</p>
+                  <p>Last Update: 2022</p>
+                  <p>Status: just an idea.</p>
+
+                </div>
+
+    <div class="w3-quarter">
+              <a href="2003fordtaurus.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Car</h3>
+              <p>Year Started: 2010</p>
+              <p>Last Update: 2022</p>
+              <p>Status: Operational</p>
+            </div>
+
+            <div class="w3-quarter">
+              <a href="robottown.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Robot Town Plans</h3>
+              <p>Year Started: 2022</p>
+              <p>Last Update: 2022</p>
+              <p>Status: just an idea.</p>
+            </div>
+
+            <div class="w3-quarter">
+              <a href="landpurchasingideas.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Land Purchasing</h3>
+              <p>Year Started: 2022</p>
+              <p>Last Update: 2022</p>
+              <p>Status: just an idea.</p>
+            </div>
+
+            <div class="w3-quarter">
+              <a href="mrp.html"><img src="images/roomplan2.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Major Reorganization Project</h3>
+              <p>Year Started: 2022</p>
+              <p>Last Update: 2022</p>
+              <p>Status: Just started.</p>
+            </div>
+            <!--<div class="w3-quarter">
+              <a href="alternativeneighborhood.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Alternative Neighborhood Plans</h3>
+              <p>Year Started: </p>
+              <p>Last Update: </p>
+              <p>Status:</p>
+
+            </div>
+            <div class="w3-quarter">
+              <a href="remotecampsiteplans.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Remote Campsite Plans</h3>
+              <p>Year Started: </p>
+              <p>Last Update: </p>
+              <p>Status:</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="smallbuildingideas.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Small building Ideas</h3>
+              <p>Year Started: 2022</p>
+              <p>Last Update: 2022</p>
+              <p>Status: </p>
+
+            </div>-->

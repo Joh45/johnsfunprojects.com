@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - Curly Fries</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+
+    <a href="#overview" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+    <a href="#friesshow" onclick="w3_close()" class="w3-bar-item w3-button">Pictures</a>
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - Curly Fries</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <span id="overview"></span>
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+      <hr>
+
+      <h3>Air Fryer Curly Fries</h3>
+
+      <div>
+
+        <p>At pick and save, they sell Arby's sauce, they also sell cheap curly fries that can be cooked in an air fryer in 12 minutes.  There's also actual 
+            Arby's curly fries at Metcaffe's, but they don't say they can be air fried and they are a lot more expensive.
+        </p>
+
+      </div>
+
+    </div>
+
+    <hr id="friesshow">
+    <!-- slideshow test 1-->
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+
+      <h3>Curly Fries</h3>
+      <br>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/cooking/curly fries/cf1.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/cooking/curly fries/cf2.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/cooking/curly fries/cf3.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/cooking/curly fries/cf4.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+      <br>
+
+
+    <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

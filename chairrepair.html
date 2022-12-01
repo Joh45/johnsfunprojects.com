@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - Chair Repair</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<link rel="stylesheet" href="css/slideshow2.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="#overview" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+    <a href="#secondrepair" onclick="w3_close()" class="w3-bar-item w3-button">Second Repair</a>
+    <a href="#putty" onclick="w3_close()" class="w3-bar-item w3-button">Special Putty</a>
+    <a href="#bandsaw" onclick="w3_close()" class="w3-bar-item w3-button">Bandsaw</a>
+    <a href="#firstrepair" onclick="w3_close()" class="w3-bar-item w3-button">First Repair</a>
+    <!--<a href="#three" onclick="w3_close()" class="w3-bar-item w3-button">three</a>
+    <a href="#four" onclick="w3_close()" class="w3-bar-item w3-button">four</a>
+    <a href="#five" onclick="w3_close()" class="w3-bar-item w3-button">five</a>
+    <a href="#six" onclick="w3_close()" class="w3-bar-item w3-button">six</a>-->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - Chair Repair</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <!--https://www.lampshop.com/ talk about the lampshop, the making of the lampshade, your use of lampshade paper and fabric, the older lamp, that you hung up now that you remember it
+    note that you might be able to steal the lampshop website and use its checkout and store code. you used to make forms like this in school but have never seen a real one that is just
+    written in standard html in the wild.  Most of them are something else and are connected to paypal etc. This should be a project actually, maybe a secret one not on this site-->
+
+
+    <span id="overview"></span>
+    <!-- text on left photo on right-->
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+      <hr>
+      <h3>Overview</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div>
+          <img src="images/chairrepair/chair main pic.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="534">
+        </div>
+        <div>
+          <h6><i>This chair leg broke</i></h6>
+          <p>Below are some pictures and descriptions of my attempts to fix it.<br> At this moment, 6-29-2022 at 4:41 pm, it is fully repaired and working.<br> The picture above is from after the repair.<br>
+            So this project is complete. <br>That's it, that's how it looks now.</p>
+        </div>
+      </div>
+    </div>
+    <hr id="secondrepair">
+    <!-- slideshow test 1-->
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+
+      <h3>2nd repair, gluing the cap that fell out.</h3>
+      <br>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/chairrepair/2a.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/chairrepair/2b.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/chairrepair/2c.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/chairrepair/2d.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+      <div class="w3-padding-32">
+        <!--<h4><b>One</b></h4>-->
+        <h6><i>Reattaching the cap.</i></h6>
+        <p>This is a slideshow of pictures from the day i glued the cap back in. I mixed the putty with water. It seemed to work.</p>
+
+
+      </div>
+    </div>
+
+    <hr id="putty">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+      <h3>Special Putty</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+
+        <div class="w3-half">
+          <h3>Putty</h3>
+          <p>I thought this chair was fixed, but the little cap on the bottom of the leg fell out. My dad gave me this Putty to glue it back in.
+            it had to be mixed with water.</p>
+        </div>
+        <div class="w3-half">
+          <img src="images/chairrepair/putty.jpg" alt="placeholder" style="width:100%" />
+        </div>
+        <br>
+      </div>
+      <br>
+    </div>
+
+    <hr id="bandsaw">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+      <h3>Bandsaw</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-half">
+          <img src="images/chairrepair/bandsaw.jpg" alt="placeholder" style="width:100%" />
+        </div>
+        <div class="w3-half">
+          The legs of the chair were curved, so I needed to find a way to be able to easily cut the curved shape out of
+          a square wood block.  Jigsaw was an option, but that is a little bit too unstable for me, because it saws up and down, and when it goes up
+          it makes things kind of shaky.  With a long thin piece, it's difficult to clamp it down and still be able to cut a very long curve with a jigsaw, yes it's hard for me to be accurate because
+          my muscles are too small, so you've got me there, but <b>ALSO</b> i think it's hard for anyone,
+          even the <a href="https://www.muscleandfitness.com/flexonline/10-strongest-humans-ever-walk-earth-2/">strongest people on earth</a>,
+          because the clamp gets in the way, (or your muscular hand gets in the way).  It's hard to find a good place to clamp a long piece like a leg.
+          Maybe i could research other types of clamps or how to get better at clamping, and maybe i still will,
+          but instead I bought the
+          cheapest bandsaw from harbor freight, and I'm very happy I did.  Bandsaws only saw straight down, so this means there is no up cut, and more stability.
+          It also gives you a nice platform to place the wood on<!--(and that's where the possible inuendos get scary)-->, so it's not like trying to use a circular
+          saw on the floor with all the difficulties and instabilty that come with that.
+          After using it a few times, i also feel it's a great way to rip wood, even natural wood, and there are better bandsaws and bandsaw accessories that are designed to do just that.
+          There's another page on my site about sawing natural wood.  At the moment i think bandsaws are the answer.
+        </div>
+        <br>
+      </div>
+      </br>
+    </div>
+
+    <hr id="firstrepair">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+
+      <h3>1st repair, Sawing, Painting, and attaching the new leg.</h3>
+      <br>
+      <div class="slideshow-container2">
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">1 / 11</div>
+          <img src="images/chairrepair/1a.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">2 / 11</div>
+          <img src="images/chairrepair/1b.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">3 / 11</div>
+          <img src="images/chairrepair/1c.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">4 / 11</div>
+          <img src="images/chairrepair/1d.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">5 / 11</div>
+          <img src="images/chairrepair/1e.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">6 / 11</div>
+          <img src="images/chairrepair/1f.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">7 / 11</div>
+          <img src="images/chairrepair/1g.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">8 / 11</div>
+          <img src="images/chairrepair/1h.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">9 / 11</div>
+          <img src="images/chairrepair/1i.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">10 / 11</div>
+          <img src="images/chairrepair/1j.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <div class="numbertext2">11 / 11</div>
+          <img src="images/chairrepair/1k.jpg" style="width:100%">
+          <div class="text2">.</div>
+        </div>
+
+        <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot2" onclick="currentSlide2(1)"></span>
+        <span class="dot2" onclick="currentSlide2(2)"></span>
+        <span class="dot2" onclick="currentSlide2(3)"></span>
+        <span class="dot2" onclick="currentSlide2(4)"></span>
+        <span class="dot2" onclick="currentSlide2(5)"></span>
+        <span class="dot2" onclick="currentSlide2(6)"></span>
+        <span class="dot2" onclick="currentSlide2(7)"></span>
+        <span class="dot2" onclick="currentSlide2(8)"></span>
+        <span class="dot2" onclick="currentSlide2(9)"></span>
+        <span class="dot2" onclick="currentSlide2(10)"></span>
+        <span class="dot2" onclick="currentSlide2(11)"></span>
+      </div>
+
+      <script>
+        var slideIndex2 = 1;
+        showSlides2(slideIndex2);
+
+        function plusSlides2(n) {
+          showSlides2(slideIndex2 += n);
+        }
+
+        function currentSlide2(n) {
+          showSlides2(slideIndex2 = n);
+        }
+
+        function showSlides2(n) {
+          var i;
+          var slides2 = document.getElementsByClassName("mySlides2");
+          var dots2 = document.getElementsByClassName("dot2");
+          if (n > slides2.length) {
+            slideIndex2 = 1
+          }
+          if (n < 1) {
+            slideIndex2 = slides2.length
+          }
+          for (i = 0; i < slides2.length; i++) {
+            slides2[i].style.display = "none";
+          }
+          for (i = 0; i < dots2.length; i++) {
+            dots2[i].className = dots2[i].className.replace(" active2", "");
+          }
+          slides2[slideIndex2 - 1].style.display = "block";
+          dots2[slideIndex2 - 1].className += " active2";
+        }
+      </script>
+      <div class="w3-padding-32">
+        <!--<h4><b>One</b></h4>-->
+        <h6><i>Sawing, painting, and reattaching the broken leg.</i></h6>
+          <p>The above pictures are from the day of the main repair of the chair leg.  In future project pages like this i might be able to detail each step a lot better, but for projects I completed before the existence of
+          this website, I will just have a slideshow of any pictures I have from specific days.  From what i can remember, I bought a block of wood that was about twice as long as one of the chair legs, I then traced the good leg
+          and using a new bandsaw, cut along the traced lines.  I used a jigsaw and sander to clean it up, then finished it with a similarly dark stain that looked like the stain on the rest of the legs, it ended up being too dark
+          so i just painted them all.  Then I attached it and let them all dry with the chair upside down.</p>
+
+
+      </div>
+    </div>
+
+
+
+    <!--
+    <hr id="seven">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+
+      <h3>Seven</h3>
+
+      <div>
+
+        <h6><i>This is a section with no picture</i></h6>
+        <p>just a title, an italicized description and paragraphs.</p>
+      </div>
+    </div>
+    -->
+
+
+    <!--<hr id="two">-->
+
+    <!-- text on left photo on right-->
+    <!--  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+      <h3>Two</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+
+        <div class="w3-half">
+          <h3>Where does it come from?</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+            piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+            McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+            the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+            through the cites of the word in classical literature, discovered the undoubtable
+            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum
+            et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+            is a treatise on the theory of ethics, very popular during the Renaissance. The
+            first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+            comes from a line in section 1.10.32.</p>
+        </div>
+        <div class="w3-half">
+          <img src="w3images/sheep.png" alt="placeholder" style="width:100%" />
+        </div>
+        <br>
+      </div>
+      <br>
+    </div>
+-->
+    <!--<hr id="three">-->
+
+    <!-- photo on right, text on left,
+    change width of picture to fit-->
+    <!--<div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+      <h3>Three</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-half">
+          <img src="w3images/wine.jpg" alt="placeholder" style="width:50%" />
+        </div>
+        <div class="w3-half">
+          <h3>Why do we use it?</h3>
+          <p>It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout. The point of using Lorem Ipsum
+            is that it has a more-or-less normal distribution of letters, as opposed to
+            using 'Content here, content here', making it look like readable English. Many
+            desktop publishing packages and web page editors now use Lorem Ipsum as their
+            default model text, and a search for 'lorem ipsum' will uncover many web sites
+            still in their infancy. Various versions have evolved over the years,
+            sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </div>
+        <br>
+      </div>
+      </br>
+    </div>-->
+
+
+
+
+    <!--  <hr id="four"> -->
+
+    <!-- image below, text above -->
+    <!--  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;"> -->
+
+    <!--<h3>Four</h3>-->
+
+    <!--<div class="w3-container w3-padding-32 w3-center">-->
+    <!--    <div class="w3-row-padding w3-padding-16 w3-center">
+        <h4><b>Where can I get some?</b></h4>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+          suffered alteration in some form, by injected humour, or randomised words which don't
+          look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+          need to be sure there isn't anything embarrassing hidden in the middle of text. All
+          the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+          necessary, making this the first true generator on the Internet. It uses a
+          dictionary of over 200 Latin words, combined with a handful of model sentence
+          structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem
+          Ipsum is therefore always free from repetition, injected humour,
+          or non-characteristic words etc.</p>
+      </div>
+
+      <img src="w3images/popsicle.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="267">
+
+      <br>
+
+    </div> -->
+
+    <!--
+    <hr id="five">
+  text on left photo on right, for posts that aren't on the top, has an extra br
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+
+      <h3>Five</h3>
+      <br>
+      <img src="images/pine64.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="267">
+      <div class="w3-padding-32">
+
+        <h6><i>This is a section like the top one except designed for a post that won't be on the top.</i></h6>
+        <p>This is a section like the top one except designed for a post that won't be on the top. It has an extra br</p>
+      </div>
+    -->
+    <!--
+    <hr id="six">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+
+      <h3>Six</h3>
+      <br>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="images/2005pc.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="images/amdk6.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="images/argonone.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="images/lamp1.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="images/pi3bsnes.jpg" style="width:100%">
+          <div class="text">.</div>
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+      <div class="w3-padding-32">-->
+    <!--
+        <h6><i>This is a slideshow test</i></h6>
+        <p> This is my attempt to test a slideshow. I plan to have the slideshow code in an external js file.</p>
+
+
+      </div>-->
+
+      <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

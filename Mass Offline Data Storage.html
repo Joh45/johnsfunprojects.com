@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - Mass Offline Data Storage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+
+    <a href="#overview" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+  <!--  <a href="#two" onclick="w3_close()" class="w3-bar-item w3-button">two</a>  -->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - Mass Offline Data Storage</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <span id="overview"></span>
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+      <hr>
+
+      <h3>Project Overview</h3>
+
+      <div>
+
+        <h6><i>Mass Offline Data Storage</i></h6>
+        <p>I was reminded of the need for this project when I read <a href="PDF Articles/All Unsorted/Could the Internet Archive go out like Napster_.pdf">this article</a>.
+           I'm not sure what to call it, it's some combination of
+        diy network attached storage, a backup hard drive full of old junk, and our own internet or intranet. I wrote a large rant about this, but i think for now
+        i won't put it here, ask me if you want to see it.  
+
+      <p>That's the why(it used to say this after a long paragraph), but the how is the main focus of this website.  I plan to start by at some point making a diy NAS device with two drives, RAID 0. I'm going to at some point
+        buy the Argon Eon case, and I'll have a raspberry pi in there with 2 drives.  I hope it can have at least 10 GB of storage.  I think HDD's would be fine, i don't think i need ssds, but that could change. I'd probably
+        get drives similar to wd red drives, though I think there are newer, released in 2022 hard drives that I haven't looked into yet.  wd red specifically might not even exist anymore.  I would probably use open media vault
+      and maybe I will at first, but i bet togos has a better way, so whatever data i saved on my first draft of this, i'd let him change the os to whatever he wants and just make sure he has the same data i decided to save
+      in addition to whatever data he feels might be important, or i'd have my NAS
+    at one of my houses, and he'd have his at ws3.  Or we could have lots and lots of nas devices everywhere with different hardware and different os's.  But for just the one that I priced out, it was $700, so like most computer
+    things in the world, it gets expensive fast.</p>
+
+
+      <p>more recently, i thought about making a local web server with raspberrry pi zero w that would have a small website with lots of files that i could hand to you and
+        it would be at a certain ip address at my or someone else's or everyone else's house.  Maybe they could also communicate through some sort of long range radio like
+      lora or something, but they'd be offline.</p>
+      </div>
+
+
+
+    </div>
+
+
+    <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

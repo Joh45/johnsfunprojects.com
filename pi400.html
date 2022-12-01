@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - PI 400</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+82422
+    <a href="#overview" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+    <a href="#sound recording idea" onclick="w3_close()" class="w3-bar-item w3-button">Sound Recording Idea</a>
+    <a href="#82422" onclick="w3_close()" class="w3-bar-item w3-button">OS Upgrade</a>
+  <!--  <a href="#two" onclick="w3_close()" class="w3-bar-item w3-button">two</a>  -->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - PI 400</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <span id="overview"></span>
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+      <hr>
+
+      <h3>Project Overview</h3>
+
+      <div>
+
+        <h6><i>Coming soon</i></h6>
+        <p>This page will be updated the next time I work on this project</p>
+
+      </div>
+
+
+    </div>
+
+    <hr id="sound recording idea">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+
+      <h3>Nature Sound Recording Idea</h3>
+
+      <div>
+       <p>I've been on a couple of walks where there was some very good background noise.  I've also wanted to record rain sounds, etc.  I might try to make youtube/tictoc videos of nature sounds, it seems completely dooable.
+       I'd like to use the samson go mic and a raspberry pi zero w, put together a little battery pack and/or print a case, maybe add a camera later, I guess I'd control it from a laptop, but i'm not sure, maybe i'd have a mini led screen too, or
+     bring the pi 400 and (portable?)monitor, use that from my car to turn it on, i guess i'd start on my back porch, to get the mic and recording working properly and worry about activating it in other locations later.</p>
+       <br>
+
+    </div>
+
+
+    <hr id="82422">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+
+      <h3>OS Update, from the last official version of raspbian to PI OS</h3>
+
+      <div>
+       <p>I'm going to try to upgrade the os on the pi400.</p>
+       <a href="pdfs/pi400/pi os update.pdf">pi os update instructions</a></p>
+       <p>I found this set of instructions: <a href="pdfs/pi400/">pi os update instructions</a></p>
+
+       <p>I believe the os was upgraded successfully, I'm not sure how to check, it doesn't look different.  I'm going to call this a success for now.</p>
+       <p>I was at first worried that this would involve imaging a new sd card, but it didn't, it just required the extra step of editing the sources.list file.</p>
+       <br>
+
+    </div>
+
+
+    <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

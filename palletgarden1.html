@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects - Pallet Garden</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<link rel="stylesheet" href="css/slideshow.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+
+    <a href="#overview" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+  <!--  <a href="#two" onclick="w3_close()" class="w3-bar-item w3-button">two</a>  -->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact & Other Info</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">John's Fun Projects - Pallet Garden</div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <span id="overview"></span>
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:50px;">
+      <hr>
+
+      <h3>Pallet garden</h3>
+
+      <div>
+
+        <h6><i>I made a pallet garden in 2022</i></h6>
+        <p>All known pictures of it will be included here eventually.  Sadly this project did not work, or at least didn't
+          produce significant edible results because there was not enough
+          soil or water.  (update: I dismantled and disposed of this project because it did not work and I did
+          not want some new neighbors to be annoyed, which it turns out they probably weren't.)
+          <br>
+          <br>
+          The last of my special paint(will insert link when possible) was used on this.  It started with
+          an old, not particularly usable pallet I received from storage at ws1.  Every other board was removed and cut, 
+          then nailed to the bottom of each level to leave room for the plants.  The back was covered
+          with burlap.  each level was reinforced by burlap. 
+          <br>
+          <br>
+          The main mistake that lead to the failure of this project was 
+          trying to grow strawberries and other overly ambitious things like that.  There
+          simply was not enough soil.  I thought the strawberries might spread around like vines and really take it over
+          but they tried that, failed, and could never get going.  It was short on water too and i intended to use my automatic watering system, 
+          which does work, but never got it set up outside, mainly because of a lack of a good garden battery solution, which is another project
+          that I haven't even posted on this site yet.  
+          <br>
+          <br>
+          This could be a much more effective herb or small flower garden, maybe 
+          edible flowers like Nasturtiums and/or edible weeds like sour grass and lambs quarters would work. 
+          <br>
+          <br>
+          I think I'm going to take it down (I did, it's gone), and next year
+          I'm going to use the same amount of effort to try and create a u shaped fenced in garden(add link when possible) instead.  
+          I still like the idea of a vertical garden like this, but the soil boxes would have to be much bigger than it seems to 
+          me like the average pallet allows for.  I know there's lots of pictures of successful pallet gardens online, but 
+          that just isn't how it happened when I tried it.  I actually planted things in it that a gardening book suggested, 
+          i might post something about that book here too.  
+          <br>
+          <br>
+          Anyway, if i did try to make a vertical garden again it would have to be 
+          purpose built, but that would kinda take away from the 
+          low cost, high availability, and ease of manufacture benefits of a pallet garden.  Maybe there's a larger size of pallet
+          or some other, largely available item that could be used in this way that has more room for soil, if i ever see
+          something like that, maybe i'll try it.  I don't want this to hang out in the back yard of ws2, but if i had a more private,
+          more remote place to put it, i would put it there and grow nasturtiums in it. 
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <hr id="footer">
+
+      <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

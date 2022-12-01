@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<title>John's Fun Projects</title>
+<link rel="icon" type="image/x-icon" href="images/icon-1a.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/joh1.css">
+<link rel="stylesheet" href="css/joh2.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Karma", sans-serif
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+</style>
+
+<body>
+  <span id="top"></span>
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+
+    <a href="#recent" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+    <a href="#woodworking" onclick="w3_close()" class="w3-bar-item w3-button">Woodworking</a>
+    <a href="#electronics" onclick="w3_close()" class="w3-bar-item w3-button">Electronics</a>
+    <a href="#games" onclick="w3_close()" class="w3-bar-item w3-button">Games</a>
+    <a href="#gardening" onclick="w3_close()" class="w3-bar-item w3-button">Gardening</a>
+    <a href="#computers" onclick="w3_close()" class="w3-bar-item w3-button">Computers</a>
+    <a href="#cooking" onclick="w3_close()" class="w3-bar-item w3-button">Cooking</a>
+    <a href="#alternative income" onclick="w3_close()" class="w3-bar-item w3-button">Alternative Income</a>
+    <a href="#locations" onclick="w3_close()" class="w3-bar-item w3-button">Locations</a>
+    <!--<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>-->
+    <a href="#footer" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+    <!--<a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">&#x2302;</a>-->
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  </nav>
+
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-padding-16 w3-right">
+        <a href="index.html" style="text-decoration: none">&#x2302;</a><span>&nbsp</span>
+        <a href="#top" style="text-decoration: none">&#10514;</a>
+        <span>&nbsp&#8202;</span>
+        <!--the site title was not lining up with the headers of each section, this is an attempt to use spaces to make it better-->
+      </div>
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+
+      <!--<div class="w3-right w3-padding-16"><a href="index.html"><img src="w3images/gondol.jpg" style="width:50px"></a></div>-->
+      <div class="w3-center w3-padding-16">John's Fun Projects</div>
+    </div>
+  </div>
+
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:0px;margin-bottom:25px">
+
+    <span id="recent"></span>
+
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+      <hr>
+      <h3>Overview</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <a href="3dprinting.html"><img src="images/clock1.png" alt="most recent" style="width:300px;"></a>
+        <h3>Last Updated Page</h3>
+        <!--<div class="w3-quarter">
+          <a href="3dprinting.html"><img src="images/3dprinter1.jpg" alt="most recent" style="width:100%"></a>
+          <h3>last updated page</h3>
+
+        </div>-->
+        <!--<div class="w3-quarter">
+          <a href="amazonkdp.html"><img src="images/linedjournal2.jpg" alt="placeholder" style="width:100%"></a>
+          <h3>Amazon KDP</h3>
+          <p>Year Started: 2022</p>
+          <p>Last Update: 2022</p>
+          <p>Status: 2 journals created. Stopped working on it, need to restart and fix at least 2 issues.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="mrp.html"><img src="images/roomplan2.jpg" alt="placeholder" style="width:100%"></a>
+          <h3>Major Reorganization Project</h3>
+          <p>Year Started: 2022</p>
+          <p>Last Update: 2022</p>
+          <p>Status: Just started.</p>
+        </div>
+        <div class="w3-quarter">
+          <a href="sitedetails.html"><img src="images/thiswebsite.jpg" alt="placeholder" style="width:100%"></a>
+          <h3>This Website</h3>
+          <p>Year Started: 2021</p>
+          <p>Last Update: 2022</p>
+          <p>Status: ongoing, daily updates on page.</p>
+        </div>-->
+      </div>
+
+
+    </div>
+
+
+    <hr id="woodworking">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;">
+
+      <h3>Woodworking</h3>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="chairrepair.html"><img src="images/chairleg1.jpg" alt="chair repair" style="width:100%"></a>
+          <h3>Chair Repair</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="etsystoreplan.html"><img src="images/pdfplans1aa.jpg" alt="etsy store" style="width:100%"></a>
+          <h3>Etsy Store Plan</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="lamp.html"><img src="w3images/lamp1.jpg" alt="Lamp 1" style="width:100%"></a>
+          <h3>Lamp 1</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="etsyraisedbed.html"><img src="images/etsyplanterb.jpg" alt="Raised bed planter" style="width:100%"></a>
+          <h3>Planter from Etsy Instructions</h3>
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="etsypotatobox.html"><img src="images/potatoplanter.jpg" alt="Potato Planter" style="width:100%"></a>
+          <h3>Potato Box From Etsy Instructions</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="networktable.html"><img src="images/networktable.jpg" alt="Network Table" style="width:100%"></a>
+          <h3>Network Table</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="prototyping.html"><img src="images/prototyping.jpg" alt="Prototyping" style="width:100%"></a>
+          <h3>Prototyping</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="sawnaturalwood.html"><img src="images/naturalboards2.jpg" alt="natural wood" style="width:100%"></a>
+          <h3>Sawing Natural Wood</h3>
+        </div>
+      </div>
+
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="bookshelf.html"><img src="images/bookshelf1.png" alt="bookshelf" style="width:100%"></a>
+          <h3>Bookshelf</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="painting.html"><img src="images/paintcan1.jpg" alt="painting" style="width:100%"></a>
+          <h3>Painting</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="lampdesignideas.html"><img src="images/otherlamps.jpg" alt="other lamps" style="width:100%"></a>
+          <h3>Lamp Design Ideas</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="smallnetworktable.html"><img src="images/smalltable1.jpg" alt="small table" style="width:100%"></a>
+          <h3>Small Network Table</h3>
+        </div>
+      </div>
+    </div>
+
+    <hr id="electronics">
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:25px">
+
+      <h3>Electronics</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="graphene.html"><img src="images/possible graphene.jpg" alt="Sandwich" style="width:100%"></a>
+          <h3>Attempts to make graphene</h3>
+
+        </div>
+        <div class="w3-quarter">
+          <a href="rccars.html"><img src="images/rccar2013.png" alt="Steak" style="width:100%"></a>
+          <h3>DIY RC Cars</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="flashlights.html"><img src="images/diyflashlight1.png" alt="Cherries" style="width:100%"></a>
+          <h3>DIY Flashlight Plans.</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="esp32.html"><img src="images/esp32basicleds.jpg" alt="Pasta and Wine" style="width:100%"></a>
+          <h3>Esp32</h3>
+        </div>
+      </div>
+    </div>
+    <hr id="games">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:25px">
+
+      <h3>Games</h3>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="games/aoe2/aoe2.html"><img src="images/games/aoe2/aoe262222.png" alt="placeholder" style="width:100%"></a>
+          <h3>Age of Empires 2</h3>
+        </div>
+        <!--<div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>-->
+      </div>
+    </div>
+
+    <hr id="gardening">
+
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:25px">
+
+      <h3>Gardening</h3>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+
+        <div class="w3-quarter">
+          <img src="images/aigarden102422.png" alt="placeholder" style="width:100%">
+          <h3>U Shaped Fenced in Garden</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="palletgarden1.html"><img src="images/pallet garden.jpg" alt="placeholder" style="width:100%"></a>
+          <h3>Pallet Garden</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="gardentoolrepair.html"><img src="images/shovel1.jpg" alt="shovel" style="width:100%"></a>
+          <h3>Garden Tool Repair</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="largeflowerboxes.html"><img src="images/largeflower2.jpg" alt="shovel" style="width:100%"></a>
+          <h3>Large Flower Boxes</h3>
+        </div>
+        <!--  <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>-->
+      </div>
+    </div>
+
+
+
+    <hr id="computers">
+    <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+
+      <h3>Computers</h3>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="3dprinting.html"><img src="images/3dprinter1.jpg" alt="placeholder" style="width:100%"></a>
+          <h3>3d Printing, creality ender 5 pro</h3>
+        </div>
+
+        <div class="w3-quarter">
+          <a href="roglaptop/roglaptop.html"><img src="images/asusroglaptop2.jpg" alt="Main Laptop" style="width:100%"></a>
+          <h3>Main Laptop</h3>
+        </div>
+
+        <div class="w3-quarter">
+          <a href="asus2009.html"><img src="images/asuswin7.jpg" alt="Windows 7 Desktop" style="width:100%"></a>
+          <h3>Passively Cooled ASUS</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="chromebook1.html"><img src="images/chromebook.jpg" alt="Cherries" style="width:100%"></a>
+          <h3>Chromebook</h3>
+        </div>
+
+      </div>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="pi400.html"><img src="images/pi400.jpg" alt="Pi400" style="width:100%"></a>
+          <h3>Raspberry Pi 400</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="pi4argonone.html"><img src="images/argonone.jpg" alt="Argone One" style="width:100%"></a>
+          <h3>Raspberry PI 4 with Argon One Case</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="pi3bsnes.html"><img src="images/pi3bsnes.jpg" alt="Sandwich" style="width:100%"></a>
+          <h3>Raspberry PI 3B with SNES Case</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="pizerow.html"><img src="images/piwzero1.jpg" alt="Croissant" style="width:100%"></a>
+          <h3>Raspberry PI W Zero</h3>
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="jennypc.html"><img src="images/bedroompc.jpg" alt="Popsicle" style="width:100%"></a>
+          <h3>h500 Desktop</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="livingroompc.html"><img src="images/livingroompc112822.jpg" alt="Salmon" style="width:100%"></a>
+          <h3>Living Room PC</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="diningroompc.html"><img src="images/diningroompc.jpg" alt="Sandwich" style="width:100%"></a>
+          <h3>Dining Room PC</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="win8tablet.html"><img src="images/win8tablet.jpg" alt="Croissant" style="width:100%"></a>
+          <h3>Windows 8 Tablet</h3>
+        </div>
+      </div>
+
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="ps4.html"><img src="images/ps4.jpg" alt="Popsicle" style="width:100%"></a>
+          <h3>Playstation 4</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="esp32.html"><img src="images/esp32.jpg" alt="Salmon" style="width:100%"></a>
+          <h3>esp32</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="pine64.html"><img src="images/pine64b.jpg" alt="Sandwich" style="width:100%"></a>
+          <h3>Pine64</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="Lenovob15laptop.html"><img src="images/lenovob15.jpg" alt="Croissant" style="width:100%"></a>
+          <h3>Lenovo B15 Laptop</h3>
+        </div>
+
+      </div>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="dospc.html"><img src="images/dospc.jpg" alt="Popsicle" style="width:100%"></a>
+          <h3>Dos PC</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="amdk6.html"><img src="images/amdk6.jpg" alt="Croissant" style="width:100%"></a>
+          <h3>AMD K6 Windows 95 PC</h3>
+
+        </div>
+        <div class="w3-quarter">
+          <a href="ibmwinxppc.html"><img src="images/ibmwinxppc.png" alt="Sandwich" style="width:100%"></a>
+          <h3>IBM Win XP PC</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="2005GamingPC.html"><img src="images/2005pc.jpg" alt="Salmon" style="width:100%"></a>
+          <h3>2005 Gaming PC</h3>
+
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <a href="arduinouno.html"><img src="images/Arduino Uno.jpg" alt="Popsicle" style="width:100%"></a>
+          <h3>Arduino UNO</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="miniitx1.html"><img src="images/miniitxlp.png" alt="Salmon" style="width:100%"></a>
+          <h3>Mini ITX Low power</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="friendsoldpc1.html"><img src="images/togospc.jpg" alt="Sandwich" style="width:100%"></a>
+          <h3>Friend's Old PC</h3>
+        </div>
+        <div class="w3-quarter">
+          <a href="pipico.html"><img src="images/pipico.png" alt="Croissant" style="width:100%"></a>
+          <h3>Raspberry Pi Pico</h3>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <a href="Mass Offline Data Storage.html"><img src="images/Argon Eon NAS.jpg" alt="Popsicle" style="width:100%"></a>
+        <h3>Mass Offline Data Storage</h3>
+      </div>
+
+      <div class="w3-quarter">
+        <a href="miningrig.html"><img src="images/miningrig.jpg" alt="Pasta and Wine" style="width:100%"></a>
+        <h3>Mining Rig</h3>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:25px">
+    <hr id="cooking">
+    <br>
+    <br>
+    <h3>Cooking</h3>
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <a href="curlyfries.html"><img src="images/curlyfries1.jpg" alt="curly fries" style="width:100%"></a>
+        <h3>Curly fries</h3>
+      </div>
+      <div class="w3-quarter">
+        <a href="sourdoughmelt.html"><img src="images/cooking/sourdough burger/sourdough1.jpg" alt="sourdough" style="width:100%"></a>
+        <h3>Sourdough Melt</h3>
+      </div>
+      <!--
+          <div class="w3-quarter">
+            <a href="gardentoolrepair.html"><img src="images/shovel1.jpg" alt="shovel" style="width:100%"></a>
+            <h3>Garden Tool Repair</h3>
+            <p>Year Started: 2022</p>
+            <p>Last Update: 2022</p>
+            <p>Status: Just started, researching.</p>
+          </div>
+         <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>-->
+    </div>
+  </div>
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px;margin-bottom:25px">
+    <hr id="alternative income">
+    <br>
+    <br>
+    <h3>Alternative Income</h3>
+
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <a href="amazonkdp.html"><img src="images/linedjournal2.jpg" alt="amazon kdp" style="width:100%"></a>
+        <h3>Amazon KDP</h3>
+      </div>
+
+      <!-- instacart, stock market, simulated town, crypto currency-->
+      <!--
+          <div class="w3-quarter">
+            <a href="gardentoolrepair.html"><img src="images/shovel1.jpg" alt="shovel" style="width:100%"></a>
+            <h3>Garden Tool Repair</h3>
+            <p>Year Started: 2022</p>
+            <p>Last Update: 2022</p>
+            <p>Status: Just started, researching.</p>
+          </div>
+         <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="images/placeholder.jpg" alt="placeholder" style="width:100%">
+            <h3>Project Name</h3>
+            <p>Year Started: </p>
+            <p>Last Update: </p>
+            <p>Status:</p>
+          </div>-->
+    </div>
+  </div>
+
+
+  <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+    <hr id="locations">
+    <br>
+    <br>
+    <h3>Locations</h3>
+
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <a href="condo.html"><img src="images/condo1 resized.jpg" alt="placeholder" style="width:100%"></a>
+        <h3>My House</h3>
+      </div>
+      <div class="w3-quarter">
+        <a href="ws2.html"><img src="images/ws2.jpg" alt="placeholder" style="width:100%"></a>
+        <h3>Workshop 2</h3>
+
+        </p>
+      </div>
+      <div class="w3-quarter">
+        <a href="sweethome3d.html"><img src="images/sweethome01.jpg" alt="placeholder" style="width:100%"></a>
+        <h3>Sweethome 3d</h3>
+      </div>
+      <div class="w3-quarter">
+        <a href="ws1.html"><img src="images/workshop1b.jpg" alt="placeholder" style="width:100%"></a>
+        <h3>Workshop 1</h3>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <a href="ws3.html"><img src="images/ws3ideapic1.png" alt="placeholder" style="width:100%"></a>
+        <h3>3rd Workshop Ideas</h3>
+      </div>
+      <div class="w3-quarter">
+        <a href="alternativeneighborhood.html"><img src="images/altneighborhoodillusion1.png" alt="placeholder" style="width:100%"></a>
+        <h3>Alternative Neighborhood</h3>
+      </div>
+      <div class="w3-quarter">
+        <a href="remotecampsiteplans.html"><img src="images/camp10.png" alt="placeholder" style="width:100%"></a>
+        <h3>Remote Campsite</h3>
+      </div>
+      <div class="w3-quarter">
+        <a href="smallbuildingideas.html"><img src="images/archedcabinaipic1.png" alt="arched cabin" style="width:100%"></a>
+        <h3>Small Buildings</h3>
+      </div>
+
+    </div>
+
+
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <!--<div class="w3-quarter">
+        <a href="2003fordtaurus.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+        <h3>Car</h3>
+      </div>-->
+
+      <div class="w3-quarter">
+        <a href="robottown.html"><img src="images/simulatedtown10.png" alt="placeholder" style="width:100%"></a>
+        <h3>Simulated Town Plans</h3>
+      </div>
+
+      <div class="w3-quarter">
+        <a href="landpurchasingideas.html"><img src="images/landbuyingart112922.jpg" alt="placeholder" style="width:100%"></a>
+        <h3>Land Purchasing</h3>
+      </div>
+
+      <div class="w3-quarter">
+        <a href="mrp.html"><img src="images/roomplan2.jpg" alt="placeholder" style="width:100%"></a>
+        <h3>Major Reorganization Project</h3>
+      </div>
+      <!--<div class="w3-quarter">
+              <a href="alternativeneighborhood.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Alternative Neighborhood Plans</h3>
+              <p>Year Started: </p>
+              <p>Last Update: </p>
+              <p>Status:</p>
+
+            </div>
+            <div class="w3-quarter">
+              <a href="remotecampsiteplans.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Remote Campsite Plans</h3>
+              <p>Year Started: </p>
+              <p>Last Update: </p>
+              <p>Status:</p>
+            </div>
+            <div class="w3-quarter">
+              <a href="smallbuildingideas.html"><img src="images/placeholder.jpg" alt="placeholder" style="width:100%"></a>
+              <h3>Small building Ideas</h3>
+              <p>Year Started: 2022</p>
+              <p>Last Update: 2022</p>
+              <p>Status: </p>
+
+            </div>-->
+
+    </div>
+  </div>
+
+  <!--
+              <hr id="about">
+              <div class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin-top:50px">
+                <h3>About Me, John</h3><br>
+                <img src="images/old picture.jpeg" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="267">
+                <div class="w3-padding-32">
+                  <h4><b>I have lots of projects!</b></h4>
+                  <h6><i>This website is one way I am trying to keep track of them.</i></h6>
+                  <p>I made this website to try to keep all of my projects organized. I will also share it with the small amount of people I know, especially if
+                    they are directly involved with or seemingly interested in one of the projects. Hopefully I also won't ever have to explain anything about any of these projects if i can just show people this.
+                    There are several kinds of projects that I have listed here.
+                    I would like to work on the more creative or technical main projects, but I do spend a lot of my time organizing, repairing random stuff, or just
+                    trying to remember all of the stuff i have to do. Almost everything I have works, but it all also needs a ton of maintenance and upgrades. So I'll try to
+                    emphasize the important projects. Usually the big projects are dependent on taking care of all of the small stuff. For example,
+                    having all, and i do mean all, of my computers in a fully operational state might help me with woodworking, or music, or making flashlights. But is
+                    that just a distraction? and do i even remember what I was supposed to be doing? Maybe you're right and I should pick 5 things and throw
+                    everything else away. But since that can't happen, I'm at least going to try to put all of the plans in one place.</p>
+                </div>
+              </div>-->
+
+  <hr class="w3-main w3-content w3-padding w3-center" style="max-width:1200px;margin:auto" id="footer">
+
+  <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="900px" name="qa" id="qa" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+  
+  <!-- End page content -->
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>

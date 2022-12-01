@@ -1,0 +1,19 @@
+So the top of each page is annoying, partially because of the inconsistent
+formatting involved with the first div on each project page.
+***update, your lamp.html site solved this problem, made it a lot better, maybe use that most of the time instead of blogtest2
+and/or change blogtest 2 to be more like that.
+
+
+Also, adding the
+newest post above the first post can ruin this formatting, and there's no
+solid landing page area, just the most recent post.  i might try to design
+a page with a top post that stays in place and has a nice picture and possibly a
+way to skip to the overview post or a post that describes the project, or Maybe
+this first post should describe the project in one sentence or less.
+Also i guess it needs to have a picture, though that's kind of already done by the main page in a way.
+so maybe i need some other first post here.
+maybe it should just be a project description or initial project description or a what is this project.
+
+
+I also shouldn't forget about the status and specs posts, though that isn't applicable in
+lots of types of projects.
