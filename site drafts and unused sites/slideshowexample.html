@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="theme-white notranslate" lang="en" translate="no">
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <!--  <style>
+    @media screen {
+      html {
+        display: none;
+      }
+    }
+  </style>-->
+  <title>Pics</title>
+  <script src="javascript/script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google" content="notranslate" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/slideshow.css">
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header">
+      <div class="header-title">
+        <h1>Joh's Build Order Reference</h1>
+      </div>
+      <div class="header-theme">
+        <button class="button-theme button-white" onclick="setWhite()"></button>
+        <button class="button-theme button-sepia" onclick="setSepia()"></button>
+        <button class="button-theme button-night" onclick="setNight()"></button>
+      </div>
+      <div class="header-menu"><a class="current" href="index.html">Builds</a><a class="current" href="pics.html">Pics</a></div>
+      <div class="header-print"><button class="button-print" onclick="windowPrint()">Print</button></div>
+    </div>
+  </header>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="images/2005pc.jpg" style="width:100%">
+      <div class="text">.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="images/amdk6.jpg" style="width:100%">
+      <div class="text">.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="images/argonone.jpg" style="width:100%">
+      <div class="text">.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="images/lamp1.jpg" style="width:100%">
+      <div class="text">.</div>
+    </div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 5</div>
+			<img src="images/pi3bsnes.jpg" style="width:100%">
+			<div class="text">.</div>
+		</div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+  <footer>Created by Joh</footer>
+
+  <link rel="stylesheet" href="css/screen.css" media="screen">
+  <link rel="stylesheet" href="css/print.css" media="print">
+
+
+</body>
+
+</html>

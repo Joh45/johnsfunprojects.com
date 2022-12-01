@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">test</button>
+<script>
+function myFunction() {<!--from w  ww  . j  a va 2 s  .  co  m-->
+    var x = document.createElement("FOOTER");
+    x.setAttribute("id", "myFooter");
+    document.body.appendChild(x);
+
+    var y = document.createElement("P");
+    var t = document.createTextNode("my footer.");
+    y.appendChild(t);
+
+    document.getElementById("myFooter").appendChild(y);
+}
+</script>
+
+</body>
+</html>
+
+<!-- http://www.java2s.com/Tutorials/Javascript/DOM_Object/Footer/index.htm-->
